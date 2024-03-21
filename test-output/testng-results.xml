@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="12" total="32" passed="19" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-14T09:37:17 IST" name="Suite" finished-at="2024-03-14T09:44:34 IST" duration-ms="436832">
+    <groups>
+      <group name="regressionTest">
+        <method signature="TC_04_findingHospitals.verifyingPhoneFieldUsingBVA()[pri:8, instance:testClasses.TC_04_findingHospitals@1e0b4072]" name="verifyingPhoneFieldUsingBVA" class="testClasses.TC_04_findingHospitals"/>
+        <method signature="TC_04_findingHospitals.verifyingPhoneFieldUsingBVA_1()[pri:9, instance:testClasses.TC_04_findingHospitals@1e0b4072]" name="verifyingPhoneFieldUsingBVA_1" class="testClasses.TC_04_findingHospitals"/>
+        <method signature="TC_04_findingHospitals.verifyingPhoneFieldUsingInvalidMobileNumberFormat()[pri:7, instance:testClasses.TC_04_findingHospitals@1e0b4072]" name="verifyingPhoneFieldUsingInvalidMobileNumberFormat" class="testClasses.TC_04_findingHospitals"/>
+        <method signature="TC_05_findingHospitals.verifyingMobileNumUsingValidInput()[pri:10, instance:testClasses.TC_05_findingHospitals@791f145a]" name="verifyingMobileNumUsingValidInput" class="testClasses.TC_05_findingHospitals"/>
+        <method signature="TC_05_findingHospitals.verifyingMobileNumUsingValidInput_1()[pri:11, instance:testClasses.TC_05_findingHospitals@791f145a]" name="verifyingMobileNumUsingValidInput_1" class="testClasses.TC_05_findingHospitals"/>
+        <method signature="TC_05_findingHospitals.verifyingMobileNumUsingValidInput_2()[pri:12, instance:testClasses.TC_05_findingHospitals@791f145a]" name="verifyingMobileNumUsingValidInput_2" class="testClasses.TC_05_findingHospitals"/>
+        <method signature="TC_05_findingHospitals.verifyingMobileNumUsingValidInput_3()[pri:13, instance:testClasses.TC_05_findingHospitals@791f145a]" name="verifyingMobileNumUsingValidInput_3" class="testClasses.TC_05_findingHospitals"/>
+        <method signature="TC_06_findingHospitals.verifyingEmailUsingInvalidInput()[pri:14, instance:testClasses.TC_06_findingHospitals@38cee291]" name="verifyingEmailUsingInvalidInput" class="testClasses.TC_06_findingHospitals"/>
+        <method signature="TC_06_findingHospitals.verifyingEmailUsingInvalidInput_1()[pri:15, instance:testClasses.TC_06_findingHospitals@38cee291]" name="verifyingEmailUsingInvalidInput_1" class="testClasses.TC_06_findingHospitals"/>
+        <method signature="TC_06_findingHospitals.verifyingEmailUsingInvalidInput_2()[pri:16, instance:testClasses.TC_06_findingHospitals@38cee291]" name="verifyingEmailUsingInvalidInput_2" class="testClasses.TC_06_findingHospitals"/>
+        <method signature="TC_06_findingHospitals.verifyingEmailUsingInvalidInput_3()[pri:17, instance:testClasses.TC_06_findingHospitals@38cee291]" name="verifyingEmailUsingInvalidInput_3" class="testClasses.TC_06_findingHospitals"/>
+        <method signature="TC_06_findingHospitals.verifyingEmailUsingValidInput()[pri:18, instance:testClasses.TC_06_findingHospitals@38cee291]" name="verifyingEmailUsingValidInput" class="testClasses.TC_06_findingHospitals"/>
+        <method signature="TC_07_findingHospitals.verifyScheduleADemoButtonVisibility()[pri:20, instance:testClasses.TC_07_findingHospitals@4b45a2f5]" name="verifyScheduleADemoButtonVisibility" class="testClasses.TC_07_findingHospitals"/>
+      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="TC_01_findingHospitals.filter()[pri:1, instance:testClasses.TC_01_findingHospitals@52719fb6]" name="filter" class="testClasses.TC_01_findingHospitals"/>
+        <method signature="TC_01_findingHospitals.getDoctorsData()[pri:2, instance:testClasses.TC_01_findingHospitals@52719fb6]" name="getDoctorsData" class="testClasses.TC_01_findingHospitals"/>
+        <method signature="TC_01_findingHospitals.search()[pri:0, instance:testClasses.TC_01_findingHospitals@52719fb6]" name="search" class="testClasses.TC_01_findingHospitals"/>
+        <method signature="TC_02_findingHospitals.getSurgeriesList()[pri:4, instance:testClasses.TC_02_findingHospitals@65c7a252]" name="getSurgeriesList" class="testClasses.TC_02_findingHospitals"/>
+        <method signature="TC_02_findingHospitals.navigateToSurgeries()[pri:3, instance:testClasses.TC_02_findingHospitals@65c7a252]" name="navigateToSurgeries" class="testClasses.TC_02_findingHospitals"/>
+        <method signature="TC_03_findingHospitals.navigateToCorporate()[pri:5, instance:testClasses.TC_03_findingHospitals@4d154ccd]" name="navigateToCorporate" class="testClasses.TC_03_findingHospitals"/>
+        <method signature="TC_03_findingHospitals.navigateToDemo()[pri:6, instance:testClasses.TC_03_findingHospitals@4d154ccd]" name="navigateToDemo" class="testClasses.TC_03_findingHospitals"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2024-03-14T09:37:17 IST" name="Test" finished-at="2024-03-14T09:44:34 IST" duration-ms="436832">
+      <class name="testClasses.TC_06_findingHospitals">
+        <test-method signature="verifyingEmailUsingInvalidInput()[pri:14, instance:testClasses.TC_06_findingHospitals@38cee291]" started-at="2024-03-14T09:41:56 IST" name="verifyingEmailUsingInvalidInput" depends-on-groups="smokeTest" finished-at="2024-03-14T09:41:57 IST" duration-ms="711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingEmailUsingInvalidInput -->
+        <test-method signature="verifyingEmailUsingInvalidInput_1()[pri:15, instance:testClasses.TC_06_findingHospitals@38cee291]" started-at="2024-03-14T09:41:58 IST" name="verifyingEmailUsingInvalidInput_1" depends-on-groups="smokeTest" finished-at="2024-03-14T09:41:59 IST" duration-ms="713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingEmailUsingInvalidInput_1 -->
+        <test-method signature="verifyingEmailUsingInvalidInput_2()[pri:16, instance:testClasses.TC_06_findingHospitals@38cee291]" started-at="2024-03-14T09:42:00 IST" name="verifyingEmailUsingInvalidInput_2" depends-on-groups="smokeTest" finished-at="2024-03-14T09:42:01 IST" duration-ms="612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingEmailUsingInvalidInput_2 -->
+        <test-method signature="verifyingEmailUsingInvalidInput_3()[pri:17, instance:testClasses.TC_06_findingHospitals@38cee291]" started-at="2024-03-14T09:42:02 IST" name="verifyingEmailUsingInvalidInput_3" depends-on-groups="smokeTest" finished-at="2024-03-14T09:42:02 IST" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingEmailUsingInvalidInput_3 -->
+        <test-method signature="verifyingEmailUsingValidInput()[pri:18, instance:testClasses.TC_06_findingHospitals@38cee291]" started-at="2024-03-14T09:42:04 IST" name="verifyingEmailUsingValidInput" depends-on-groups="smokeTest" finished-at="2024-03-14T09:42:05 IST" duration-ms="879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingEmailUsingValidInput -->
+      </class> <!-- testClasses.TC_06_findingHospitals -->
+      <class name="testClasses.TC_01_findingHospitals">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testClasses.TC_01_findingHospitals@52719fb6]" started-at="2024-03-14T09:37:20 IST" name="setUp" finished-at="2024-03-14T09:38:18 IST" duration-ms="57818" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user_input]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="search()[pri:0, instance:testClasses.TC_01_findingHospitals@52719fb6]" started-at="2024-03-14T09:38:18 IST" name="search" finished-at="2024-03-14T09:38:22 IST" duration-ms="4298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="filter()[pri:1, instance:testClasses.TC_01_findingHospitals@52719fb6]" started-at="2024-03-14T09:38:23 IST" name="filter" finished-at="2024-03-14T09:40:08 IST" duration-ms="105038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filter -->
+        <test-method signature="getDoctorsData()[pri:2, instance:testClasses.TC_01_findingHospitals@52719fb6]" started-at="2024-03-14T09:40:09 IST" name="getDoctorsData" finished-at="2024-03-14T09:40:17 IST" duration-ms="8244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDoctorsData -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testClasses.TC_01_findingHospitals@52719fb6]" started-at="2024-03-14T09:43:30 IST" name="afterClass" finished-at="2024-03-14T09:44:34 IST" duration-ms="63908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testClasses.TC_01_findingHospitals -->
+      <class name="testClasses.TC_05_findingHospitals">
+        <test-method signature="verifyingMobileNumUsingValidInput()[pri:10, instance:testClasses.TC_05_findingHospitals@791f145a]" started-at="2024-03-14T09:41:45 IST" name="verifyingMobileNumUsingValidInput" depends-on-groups="smokeTest" finished-at="2024-03-14T09:41:47 IST" duration-ms="2126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingMobileNumUsingValidInput -->
+        <test-method signature="verifyingMobileNumUsingValidInput_1()[pri:11, instance:testClasses.TC_05_findingHospitals@791f145a]" started-at="2024-03-14T09:41:48 IST" name="verifyingMobileNumUsingValidInput_1" depends-on-groups="smokeTest" finished-at="2024-03-14T09:41:51 IST" duration-ms="2423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingMobileNumUsingValidInput_1 -->
+        <test-method signature="verifyingMobileNumUsingValidInput_2()[pri:12, instance:testClasses.TC_05_findingHospitals@791f145a]" started-at="2024-03-14T09:41:52 IST" name="verifyingMobileNumUsingValidInput_2" depends-on-groups="smokeTest" finished-at="2024-03-14T09:41:53 IST" duration-ms="1119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingMobileNumUsingValidInput_2 -->
+        <test-method signature="verifyingMobileNumUsingValidInput_3()[pri:13, instance:testClasses.TC_05_findingHospitals@791f145a]" started-at="2024-03-14T09:41:54 IST" name="verifyingMobileNumUsingValidInput_3" depends-on-groups="smokeTest" finished-at="2024-03-14T09:41:55 IST" duration-ms="649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingMobileNumUsingValidInput_3 -->
+      </class> <!-- testClasses.TC_05_findingHospitals -->
+      <class name="testClasses.TC_07_findingHospitals">
+        <test-method signature="verifyScheduleADemoButtonVisibility()[pri:20, instance:testClasses.TC_07_findingHospitals@4b45a2f5]" started-at="2024-03-14T09:42:06 IST" name="verifyScheduleADemoButtonVisibility" depends-on-groups="smokeTest" finished-at="2024-03-14T09:43:29 IST" duration-ms="83162" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: (//div[@class='text-center']/div)[1]' (tried for 30 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: (//div[@class='text-center']/div)[1]' (tried for 30 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+at POM_files.registration.successMessage(registration.java:68)
+at testClasses.TC_07_findingHospitals.verifyScheduleADemoButtonVisibility(TC_07_findingHospitals.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='text-center']/div)[1]"}
+  (Session info: chrome=117.0.5938.63)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [25396fb55343cef4b066cb9e86135595, findElement {using=xpath, value=(//div[@class='text-center']/div)[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.63, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56383}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56383/devtoo..., se:cdpVersion: 117.0.5938.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 25396fb55343cef4b066cb9e86135595
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy49.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyScheduleADemoButtonVisibility -->
+      </class> <!-- testClasses.TC_07_findingHospitals -->
+      <class name="testClasses.TC_04_findingHospitals">
+        <test-method signature="verifyingPhoneFieldUsingInvalidMobileNumberFormat()[pri:7, instance:testClasses.TC_04_findingHospitals@1e0b4072]" started-at="2024-03-14T09:41:30 IST" name="verifyingPhoneFieldUsingInvalidMobileNumberFormat" depends-on-groups="smokeTest" finished-at="2024-03-14T09:41:36 IST" duration-ms="5874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingPhoneFieldUsingInvalidMobileNumberFormat -->
+        <test-method signature="verifyingPhoneFieldUsingBVA()[pri:8, instance:testClasses.TC_04_findingHospitals@1e0b4072]" started-at="2024-03-14T09:41:38 IST" name="verifyingPhoneFieldUsingBVA" depends-on-groups="smokeTest" finished-at="2024-03-14T09:41:40 IST" duration-ms="2120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingPhoneFieldUsingBVA -->
+        <test-method signature="verifyingPhoneFieldUsingBVA_1()[pri:9, instance:testClasses.TC_04_findingHospitals@1e0b4072]" started-at="2024-03-14T09:41:41 IST" name="verifyingPhoneFieldUsingBVA_1" depends-on-groups="smokeTest" finished-at="2024-03-14T09:41:43 IST" duration-ms="2535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingPhoneFieldUsingBVA_1 -->
+      </class> <!-- testClasses.TC_04_findingHospitals -->
+      <class name="testClasses.TC_03_findingHospitals">
+        <test-method signature="navigateToCorporate()[pri:5, instance:testClasses.TC_03_findingHospitals@4d154ccd]" started-at="2024-03-14T09:40:54 IST" name="navigateToCorporate" finished-at="2024-03-14T09:40:55 IST" duration-ms="1164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCorporate -->
+        <test-method signature="navigateToDemo()[pri:6, instance:testClasses.TC_03_findingHospitals@4d154ccd]" started-at="2024-03-14T09:40:56 IST" name="navigateToDemo" finished-at="2024-03-14T09:41:29 IST" duration-ms="32923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToDemo -->
+      </class> <!-- testClasses.TC_03_findingHospitals -->
+      <class name="testClasses.TC_02_findingHospitals">
+        <test-method signature="navigateToSurgeries()[pri:3, instance:testClasses.TC_02_findingHospitals@65c7a252]" started-at="2024-03-14T09:40:18 IST" name="navigateToSurgeries" finished-at="2024-03-14T09:40:26 IST" duration-ms="7566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToSurgeries -->
+        <test-method signature="getSurgeriesList()[pri:4, instance:testClasses.TC_02_findingHospitals@65c7a252]" started-at="2024-03-14T09:40:27 IST" name="getSurgeriesList" finished-at="2024-03-14T09:40:53 IST" duration-ms="25750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSurgeriesList -->
+      </class> <!-- testClasses.TC_02_findingHospitals -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

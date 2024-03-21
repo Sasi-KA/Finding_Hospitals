@@ -1,0 +1,57 @@
+21:04:52.839 [main] INFO  factory.BaseClass - verifyingMobileNumUsingValidInput_2 Test got passed
+21:04:52.951 [main] INFO  factory.BaseClass - *********** verifyingMobileNumUsingValidInput_3 Test started **********
+21:04:55.129 [main] INFO  factory.BaseClass - verifyingMobileNumUsingValidInput_3 Test got passed
+21:04:55.131 [main] INFO  factory.BaseClass - *********** verifyingEmailUsingInvalidInput Test started **********
+21:04:55.132 [main] INFO  factory.BaseClass - verifying the email field with the invalid inputs
+21:04:57.502 [main] INFO  factory.BaseClass - verifyingEmailUsingInvalidInput Test got passed
+21:04:57.508 [main] INFO  factory.BaseClass - *********** verifyingEmailUsingInvalidInput_1 Test started **********
+21:04:59.723 [main] INFO  factory.BaseClass - verifyingEmailUsingInvalidInput_1 Test got passed
+21:04:59.726 [main] INFO  factory.BaseClass - *********** verifyingEmailUsingInvalidInput_2 Test started **********
+21:05:02.463 [main] INFO  factory.BaseClass - verifyingEmailUsingInvalidInput_2 Test got passed
+21:05:02.468 [main] INFO  factory.BaseClass - *********** verifyingEmailUsingInvalidInput_3 Test started **********
+21:05:04.916 [main] INFO  factory.BaseClass - verifyingEmailUsingInvalidInput_3 Test got passed
+21:05:04.928 [main] INFO  factory.BaseClass - *********** verifyingEmailUsingValidInput Test started **********
+21:05:04.928 [main] INFO  factory.BaseClass - verifying the mail field with the valid inputs
+21:05:07.799 [main] INFO  factory.BaseClass - verifyingEmailUsingValidInput Test got passed
+21:05:07.805 [main] INFO  factory.BaseClass - *********** verifyScheduleADemoButtonVisibility Test started **********
+21:05:07.806 [main] INFO  factory.BaseClass - choosing the organization size and interested option
+21:05:09.165 [main] INFO  factory.BaseClass - verifying the visibility of schedule a demo visibilty
+21:05:29.810 [main] INFO  factory.BaseClass - getting the success message
+21:05:30.896 [main] INFO  factory.BaseClass - verifyScheduleADemoButtonVisibility Test got passed
+21:06:11.599 [main] INFO  factory.BaseClass - closing the browser
+22:07:09.450 [main] INFO  factory.BaseClass - running through chrome
+22:07:09.545 [main] INFO  factory.BaseClass - deleting all the cookies
+22:07:09.585 [main] INFO  factory.BaseClass - applying the implicit wait
+22:07:21.524 [main] INFO  factory.BaseClass - entering the search data
+22:07:24.246 [main] INFO  factory.BaseClass - navigating to the doctors page
+22:07:25.017 [main] INFO  factory.BaseClass - applying the filters
+22:07:56.175 [main] INFO  factory.BaseClass - applied all the filters
+22:07:56.874 [main] INFO  factory.BaseClass - getting the doctors details
+22:08:06.355 [main] INFO  factory.BaseClass - printing the details in the excel
+22:08:07.515 [main] INFO  factory.BaseClass - navigating to the surgeries page
+22:08:12.695 [main] INFO  factory.BaseClass - scrolling down to the surgeries
+22:08:35.200 [main] INFO  factory.BaseClass - printing the surgeries list in the excel
+22:08:36.519 [main] INFO  factory.BaseClass - navigating to the corporate
+22:08:36.520 [main] INFO  factory.BaseClass - selecting heath and wellness
+22:08:48.285 [main] INFO  factory.BaseClass - entering name and organisation in the demo form
+22:08:50.672 [main] INFO  factory.BaseClass - choosing the organization size and interested option
+22:08:53.113 [main] INFO  factory.BaseClass - verifying the phone field by giving invalid input format
+22:08:54.610 [main] INFO  factory.BaseClass - using boundary value ananlysis to verify the phone field with different input values
+22:08:57.200 [main] INFO  factory.BaseClass - verifying the email field with the invalid inputs
+22:09:04.292 [main] INFO  factory.BaseClass - verifying the visibility of schedule a demo visibilty
+22:09:05.988 [main] INFO  factory.BaseClass - verifying with the valid inputs
+22:09:14.499 [main] INFO  factory.BaseClass - verifying the mail field with the valid inputs
+22:09:17.381 [main] INFO  factory.BaseClass - verifying the visibility of schedule a demo visibilty
+22:09:38.183 [main] INFO  factory.BaseClass - getting the success message
+22:09:39.516 [main] INFO  factory.BaseClass - verifying the success message
+23:26:08.638 [main] INFO  factory.BaseClass - running through chrome
+23:26:08.753 [main] INFO  factory.BaseClass - deleting all the cookies
+23:26:08.782 [main] INFO  factory.BaseClass - applying the implicit wait
+23:26:16.957 [main] INFO  factory.BaseClass - entering the search data
+23:26:18.950 [main] INFO  factory.BaseClass - navigating to the doctors page
+23:26:19.545 [main] INFO  factory.BaseClass - applying the filters
+23:26:45.301 [main] INFO  factory.BaseClass - applied all the filters
+23:26:45.797 [main] INFO  factory.BaseClass - getting the doctors details
+23:26:49.598 [main] INFO  factory.BaseClass - printing the details in the excel
+23:26:50.041 [main] INFO  factory.BaseClass - navigating to the surgeries page
+23:26:53.216 [main] INFO  factory.BaseClass - scrolling down to the surgeries

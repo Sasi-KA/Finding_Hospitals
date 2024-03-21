@@ -1,0 +1,60 @@
+12:25:43.164 [main] INFO  factory.BaseClass - using boundary value ananlysis to verify the phone field with different input values
+12:25:45.356 [main] INFO  factory.BaseClass - verifying the email field with the invalid inputs
+12:25:56.783 [main] INFO  factory.BaseClass - verifying the visibility of schedule a demo visibilty
+12:25:58.623 [main] INFO  factory.BaseClass - verifying with the valid inputs
+12:26:04.139 [main] INFO  factory.BaseClass - verifying the mail field with the valid inputs
+12:26:06.767 [main] INFO  factory.BaseClass - verifying the visibility of schedule a demo visibilty
+12:26:27.706 [main] INFO  factory.BaseClass - getting the success message
+12:26:28.302 [main] INFO  factory.BaseClass - verifying the success message
+14:17:23.013 [main] INFO  factory.BaseClass - running through chrome
+14:17:23.148 [main] INFO  factory.BaseClass - deleting all the cookies
+14:17:23.171 [main] INFO  factory.BaseClass - applying the implicit wait
+14:17:55.043 [main] INFO  factory.BaseClass - entering the search data
+14:18:02.530 [main] INFO  factory.BaseClass - navigating to the doctors page
+14:18:04.032 [main] INFO  factory.BaseClass - applying the filters
+14:20:14.174 [main] INFO  factory.BaseClass - applied all the filters
+14:20:15.755 [main] INFO  factory.BaseClass - getting the doctors details
+14:20:19.561 [main] INFO  factory.BaseClass - printing the details in the excel
+14:20:20.323 [main] INFO  factory.BaseClass - navigating to the surgeries page
+14:20:24.816 [main] INFO  factory.BaseClass - scrolling down to the surgeries
+14:20:35.755 [main] INFO  factory.BaseClass - printing the surgeries list in the excel
+14:20:36.723 [main] INFO  factory.BaseClass - navigating to the corporate
+14:20:36.724 [main] INFO  factory.BaseClass - selecting heath and wellness
+14:21:05.564 [main] INFO  factory.BaseClass - entering name and organisation in the demo form
+14:21:06.873 [main] INFO  factory.BaseClass - choosing the organization size and interested option
+14:21:09.854 [main] INFO  factory.BaseClass - verifying the phone field by giving invalid input format
+14:21:11.073 [main] INFO  factory.BaseClass - using boundary value ananlysis to verify the phone field with different input values
+14:21:12.932 [main] INFO  factory.BaseClass - verifying the email field with the invalid inputs
+14:21:17.626 [main] INFO  factory.BaseClass - verifying the visibility of schedule a demo visibilty
+14:21:18.721 [main] INFO  factory.BaseClass - verifying with the valid inputs
+14:21:22.074 [main] INFO  factory.BaseClass - verifying the mail field with the valid inputs
+14:21:24.040 [main] INFO  factory.BaseClass - verifying the visibility of schedule a demo visibilty
+14:21:44.571 [main] INFO  factory.BaseClass - getting the success message
+14:21:45.754 [main] INFO  factory.BaseClass - verifying the success message
+14:23:17.925 [main] INFO  factory.BaseClass - running through chrome
+14:23:18.094 [main] INFO  factory.BaseClass - deleting all the cookies
+14:23:18.142 [main] INFO  factory.BaseClass - applying the implicit wait
+14:23:47.136 [main] INFO  factory.BaseClass - *********** search Test started **********
+14:23:47.136 [main] INFO  factory.BaseClass - entering the search data
+14:23:50.683 [main] INFO  factory.BaseClass - navigating to the doctors page
+14:23:51.551 [main] INFO  factory.BaseClass - search Test got passed
+14:23:51.589 [main] INFO  factory.BaseClass - *********** filter Test started **********
+14:23:51.589 [main] INFO  factory.BaseClass - applying the filters
+14:25:04.613 [main] INFO  factory.BaseClass - applied all the filters
+14:25:05.522 [main] INFO  factory.BaseClass - filter Test got passed
+14:25:05.532 [main] INFO  factory.BaseClass - *********** getDoctorsData Test started **********
+14:25:05.533 [main] INFO  factory.BaseClass - getting the doctors details
+14:25:10.094 [main] INFO  factory.BaseClass - printing the details in the excel
+14:25:10.580 [main] INFO  factory.BaseClass - getDoctorsData Test got passed
+14:25:10.586 [main] INFO  factory.BaseClass - *********** navigateToSurgeries Test started **********
+14:25:10.586 [main] INFO  factory.BaseClass - navigating to the surgeries page
+14:25:15.805 [main] INFO  factory.BaseClass - navigateToSurgeries Test got passed
+14:25:15.819 [main] INFO  factory.BaseClass - *********** getSurgeriesList Test started **********
+14:25:15.823 [main] INFO  factory.BaseClass - scrolling down to the surgeries
+14:25:26.740 [main] INFO  factory.BaseClass - printing the surgeries list in the excel
+14:25:27.309 [main] INFO  factory.BaseClass - getSurgeriesList Test got passed
+14:25:27.315 [main] INFO  factory.BaseClass - *********** navigateToCorporate Test started **********
+14:25:27.642 [main] INFO  factory.BaseClass - navigating to the corporate
+14:25:28.625 [main] INFO  factory.BaseClass - navigateToCorporate Test got passed
+14:25:28.628 [main] INFO  factory.BaseClass - *********** navigateToDemo Test started **********
+14:25:28.629 [main] INFO  factory.BaseClass - selecting heath and wellness
